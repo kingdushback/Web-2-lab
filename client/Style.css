@@ -1,0 +1,38 @@
+.inputs
+{
+	position: center;
+	margin-left: 40%;
+	margin-top: 10%;
+}
+.results
+{
+	margin-left: 40%;
+	margin-top: 5%;
+}
+.checkboxes
+{
+	width: auto;
+	margin-bottom: 10px;
+}
+
+.elem
+{
+	background-color: cyan;
+	border-radius: 5px;
+	width: 250px;
+}
+
+.contents
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	background-color: orange;
+	border-radius: 50px;
+}
+
+body
+{
+	background-color: rgba(200, 200, 200, 1);
+}

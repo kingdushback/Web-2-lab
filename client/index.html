@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="Style.css">
+	<title>Just another title</title>
+	<script src="./js/script.js"></script>
+</head>
+<body>
+	<div class = "contents">
+		<div class="GetPart">
+			<div class="inputs">
+				<label>GET</label><br>
+				<div class="checkboxes">
+					<input type="radio" name="num" id = "NoNum" checked>
+					<label for="NoNum">Get all</label>
+					
+					<input type="radio" name="num" id = "Num">
+					<label for="Num">Get first n</label>
+				</div>
+				<input type="number" id = "number" placeholder="how many entries de you want?">
+				<button onclick="SendGet()">Send request</button>
+			</div>
+			<div class = "results" id = "results">
+				<label>Results: </label><br>
+			</div>
+		</div>
+		<div class="PostPart">
+			<div class="inputs">
+				<label>POST & DELETE & PUT</label><br>
+				<input type="text" id = "name" placeholder="Type user name"><br>
+				<input type="text" id = "email" placeholder="Type user email"><br>
+				<button onclick="SendPost()">Post this</button> <button onclick="SendDelete()">Delete this</button> <button onclick="SendPut()">Put this</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
